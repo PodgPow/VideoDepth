@@ -1,0 +1,62 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  ParentCustomHint = False
+  Align = alCustom
+  AlphaBlend = True
+  AlphaBlendValue = 80
+  BiDiMode = bdRightToLeftNoAlign
+  BorderStyle = bsNone
+  Caption = 'Form1'
+  ClientHeight = 334
+  ClientWidth = 343
+  Color = clWhite
+  DockSite = True
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  ParentBiDiMode = False
+  PopupMode = pmAuto
+  Position = poDesigned
+  PrintScale = poNone
+  Scaled = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object CGauge1: TCGauge
+    Left = 0
+    Top = 0
+    Width = 185
+    Height = 185
+    Color = clWhite
+    Kind = gkPie
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    BorderStyle = bsNone
+    ForeColor = clSkyBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    AlignWithMargins = True
+    Left = 8
+    Top = 72
+    Width = 165
+    Height = 13
+    Caption = 'Please wait for opening of file'
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = True
+  end
+end
